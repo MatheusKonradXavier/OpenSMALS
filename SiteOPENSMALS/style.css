@@ -91,3 +91,52 @@
   font-family: Montserrat;
   font-size: 31px;
 }
+
+.HowITWorks{
+    margin-top: 180px;
+    margin-left: 50px;
+    text-align: center;
+    color: black;
+    font-family: Montserrat;
+    font-size: 50px;
+}
+
+.imagemEmBaixoHowItWorks{
+    margin-top: 50px;
+    margin-left: 300px;
+}
+
+.First_contact_us{
+    margin-left: 1050px;
+    margin-top: -270px;
+    color: #646464;
+    font-family: Montserrat;
+    font-size: 40px;
+}
+
+.First_contact_us a{
+   color: #F9B047;
+}
+
+.texto_first {
+    margin-left: 1050px;
+    color: #646464;
+    font-family: Montserrat;
+    font-size: 28px;
+}
+
+.Linhax1 {
+    margin-top: 100px;
+    margin-left: 550px;
+}
+
+.BookYourDemo{
+    margin-left: 400px;
+    color: #646464;
+    font-family: Montserrat;
+    font-size: 40px;
+}
+
+.BookYourDemo a{
+    color: #F9B047;
+}
