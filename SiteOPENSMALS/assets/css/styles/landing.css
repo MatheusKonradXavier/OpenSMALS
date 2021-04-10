@@ -1,0 +1,90 @@
+.header_nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    background: var(--white-lite);
+}
+
+.nav_logo {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.nav_p {
+    width: 80%;
+    height: 100%;
+}
+
+.nav_p ul {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
+.nav_p ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 1rem;
+    width: 100%;
+    cursor: pointer;
+}
+
+.nav_p ul li span {
+    text-align: center;
+}
+
+/*-----Main-----*/
+
+.main_header {
+    height: 55vh;
+    background: url('../../img/MinaDigitando.svg') no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main_header h2 {
+    font-weight: 400;
+    font-size: 35px;
+    color: #fff;
+}
+
+.main_header h2 span {
+    font-weight: 600;
+}
+
+.main_header div:first-child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main_header a {
+    height: 70px;
+    width: 350px;
+    background: var(--orange);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    margin-top: 1rem;
+    border-radius: 6px;
+    box-shadow: 5px 5px 15px 0 rgba(0, 0, 0, .3);
+    font-weight: 600;
+}
+
+.main_header a:hover{
+transform: scale(1.015);
+}
